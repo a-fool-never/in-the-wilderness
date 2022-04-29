@@ -54,5 +54,5 @@ jobs:
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ keytmp }}
+        deploy_key: ${{ secrets.keytmp }}
         publish_dir: ./out
