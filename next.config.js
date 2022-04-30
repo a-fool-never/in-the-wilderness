@@ -8,4 +8,5 @@ module.exports = {
       return config
    },
    assetPrefix: '/in-the-wilderness',
+   basePath: '/in-the-wilderness',
 }
